@@ -55,10 +55,16 @@ The **Smart Attendance System** is an automated solution designed to track atten
  ```bash
 SmartAttendanceSystem/
 │
+├── Faces/ # Directory for storing captured data
+├── Attendance/ # Directory for storing attendance records
+├── names.csv
+├── haarcascade_frontalface_default.xml
 ├── main.py # Main application logic
+├── add_faces.py
+├── train_model.py
+├── recognize_faces.py
 ├── requirements.txt # List of required Python libraries
 ├── venv/ # Virtual environment folder
-├── Faces/ # Directory for storing captured data
 └── README.md # Project documentation
 ```
 
